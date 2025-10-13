@@ -303,7 +303,7 @@ const AffiliateProgramPage: React.FC = () => {
           <h2 className="text-2xl font-bold mb-4">Ready to Start Earning?</h2>
           <p className="mb-6 max-w-2xl mx-auto">Join our affiliate program today and start earning by referring tutors and students to our platform.</p>
           <Button 
-            color="white" 
+            color="default" 
             className="px-8 text-primary font-medium"
             size="lg"
           >
