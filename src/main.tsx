@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import App from './App.tsx'
 import './index.css'
+import './i18n'
 
 // Create a client
 const queryClient = new QueryClient({
