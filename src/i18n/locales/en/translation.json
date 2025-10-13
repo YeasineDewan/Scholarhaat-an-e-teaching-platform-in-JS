@@ -29,10 +29,8 @@
   "previous": "Previous",
   "yes": "Yes",
   "no": "No",
-  "header": {
-    "english": "English",
-    "bangla": "বাংলা"
-  },
+  "English": "English",
+  "Bangla": "Bangla",
   "home": {
     "hero": {
       "title": "Country's #1 Tutor Matching & Learning Platform.",

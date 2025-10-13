@@ -55,17 +55,17 @@ const Header: React.FC = () => {
             <div className="relative group">
               <span className="text-gray-600">{i18n.language === 'bn' ? 'বাংলা' : 'English'}</span>
               <div className="absolute hidden group-hover:block top-full left-0 bg-white shadow-md rounded-md p-1 z-10">
-                <div 
-                  className={`px-4 py-2 cursor-pointer hover:bg-gray-100 ${i18n.language === 'en' ? 'text-primary' : 'text-gray-600'}`} 
+                <div
+                  className={`px-4 py-2 cursor-pointer hover:bg-gray-100 ${i18n.language === 'en' ? 'text-primary' : 'text-gray-600'}`}
                   onClick={() => changeLanguage('en')}
                 >
-                  {t('header.english')}
+                  {t('English')}
                 </div>
-                <div 
-                  className={`px-4 py-2 cursor-pointer hover:bg-gray-100 ${i18n.language === 'bn' ? 'text-primary' : 'text-gray-600'}`} 
+                <div
+                  className={`px-4 py-2 cursor-pointer hover:bg-gray-100 ${i18n.language === 'bn' ? 'text-primary' : 'text-gray-600'}`}
                   onClick={() => changeLanguage('bn')}
                 >
-                  {t('header.bangla')}
+                  {t('Bangla')}
                 </div>
               </div>
             </div>

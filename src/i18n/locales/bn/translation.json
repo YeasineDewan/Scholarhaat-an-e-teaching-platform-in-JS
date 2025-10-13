@@ -29,10 +29,8 @@
   "previous": "আগের",
   "yes": "হ্যাঁ",
   "no": "না",
-  "header": {
-    "english": "English",
-    "bangla": "বাংলা"
-  },
+  "English": "English",
+  "Bangla": "Bangla",
   "home": {
     "hero": {
       "title": "দেশের #১ টিউটর ম্যাচিং এবং লার্নিং প্ল্যাটফর্ম।",
