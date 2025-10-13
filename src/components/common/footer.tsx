@@ -2,8 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@heroui/react";
 import { Icon } from '@iconify/react';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-white pt-12 pb-6">
       <div className="container mx-auto px-4">
@@ -13,12 +16,11 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-4">
               <Icon icon="lucide:book-open" className="text-primary h-6 w-6 mr-2" />
               <span className="font-bold text-xl">
-                <span className="text-gray-800">Tuition</span>
-                <span className="text-primary"> Terminal</span>
+                <span className="text-primary">Scholarhaat</span>
               </span>
             </div>
             <p className="text-gray-600 text-sm mb-4">
-              Tuition Terminal is a leading full-stack tutor platform in Bangladesh, where students can find professional, experienced home, online, batch, & crash tutors who are committed to making your children's education, skills, arts & crafts etc. through learning fun, personalized, & easy.
+              {t('footer.aboutText')}
             </p>
             <div className="flex gap-2 mb-4">
               <Link to="/" className="inline-block">
@@ -115,7 +117,7 @@ const Footer: React.FC = () => {
         {/* Copyright */}
         <div className="border-t border-gray-200 pt-4 text-center">
           <p className="text-gray-600 text-sm">
-            Copyright © 2020-2025 <span className="text-primary">Tuition Terminal</span> All Rights Reserved
+            {t('footer.copyright')}
           </p>
         </div>
       </div>

@@ -23,8 +23,7 @@ const Header: React.FC = () => {
         <Link to="/" className="flex items-center">
           <Icon icon="lucide:book-open" className="text-primary h-6 w-6 mr-2" />
           <span className="font-bold text-xl">
-            <span className="text-gray-800">Tuition</span>
-            <span className="text-primary"> Terminal</span>
+            <span className="text-primary">Scholarhaat</span>
           </span>
         </Link>
       </NavbarBrand>
@@ -32,22 +31,22 @@ const Header: React.FC = () => {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem isActive={isActive("/")}>
           <Link to="/" className={`${isActive("/") ? "text-primary font-medium" : "text-gray-600"}`}>
-            {t('common.home')}
+            {t('home')}
           </Link>
         </NavbarItem>
         <NavbarItem isActive={isActive("/job-board")}>
           <Link to="/job-board" className={`${isActive("/job-board") ? "text-primary font-medium" : "text-gray-600"}`}>
-            {t('common.jobBoard')}
+            {t('jobBoard')}
           </Link>
         </NavbarItem>
         <NavbarItem isActive={isActive("/categories")}>
           <Link to="/categories" className={`${isActive("/categories") ? "text-primary font-medium" : "text-gray-600"}`}>
-            {t('common.categories')}
+            {t('categories')}
           </Link>
         </NavbarItem>
         <NavbarItem isActive={isActive("/tutor-hub")}>
           <Link to="/tutor-hub" className={`${isActive("/tutor-hub") ? "text-primary font-medium" : "text-gray-600"}`}>
-            {t('common.tutorHub')}
+            {t('tutorHub')}
           </Link>
         </NavbarItem>
         <NavbarItem>
@@ -80,7 +79,7 @@ const Header: React.FC = () => {
         </NavbarItem>
         <NavbarItem>
           <Button as={Link} to="/login" color="primary" variant="flat" className="font-medium">
-            {t('common.login')}
+            {t('login')}
           </Button>
         </NavbarItem>
       </NavbarContent>

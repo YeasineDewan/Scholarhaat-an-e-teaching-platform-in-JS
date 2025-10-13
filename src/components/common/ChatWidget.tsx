@@ -12,7 +12,7 @@ const ChatWidget: React.FC = () => {
     {
       id: 1,
       sender: 'system',
-      content: 'Welcome to Tuition Terminal! How can we help you today?',
+      content: 'Welcome to Scholarhaat! How can we help you today?',
       timestamp: new Date(Date.now() - 3600000).toISOString()
     }
   ]);

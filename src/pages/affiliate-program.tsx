@@ -260,7 +260,7 @@ const AffiliateProgramPage: React.FC = () => {
                 name: "Rahul Ahmed",
                 role: "Student Affiliate",
                 image: "https://img.heroui.chat/image/avatar?w=100&h=100&u=affiliate1",
-                quote: "I've been able to earn extra income as a student by referring my classmates to Tuition Terminal. The process is simple and the payments are always on time."
+                quote: "I've been able to earn extra income as a student by referring my classmates to Scholarhaat. The process is simple and the payments are always on time."
               },
               {
                 name: "Nusrat Jahan",
@@ -272,7 +272,7 @@ const AffiliateProgramPage: React.FC = () => {
                 name: "Kamal Hossain",
                 role: "Content Creator",
                 image: "https://img.heroui.chat/image/avatar?w=100&h=100&u=affiliate3",
-                quote: "I promote Tuition Terminal on my educational blog and social media. The affiliate dashboard makes it easy to track my performance and optimize my strategy."
+                quote: "I promote Scholarhaat on my educational blog and social media. The affiliate dashboard makes it easy to track my performance and optimize my strategy."
               }
             ].map((testimonial, index) => (
               <motion.div

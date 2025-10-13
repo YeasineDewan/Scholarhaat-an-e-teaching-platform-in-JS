@@ -202,7 +202,7 @@ const HomePage: React.FC = () => {
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex-grow">
                   <p className="text-gray-600 italic mb-4">
-                    "Finding the right tutor for my daughter was always challenging. Tuition Terminal made it incredibly easy. The tutor they matched us with is not only knowledgeable but also connects well with my child. Her grades have improved significantly!"
+                    "Finding the right tutor for my daughter was always challenging. Scholarhaat made it incredibly easy. The tutor they matched us with is not only knowledgeable but also connects well with my child. Her grades have improved significantly!"
                   </p>
                   <div>
                     <p className="font-semibold">Shubha Noly</p>
@@ -223,7 +223,7 @@ const HomePage: React.FC = () => {
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex-grow">
                   <p className="text-gray-600 italic mb-4">
-                    "As a working parent, I needed a reliable tutor who could help my son with his studies. The tutor from Tuition Terminal has been exceptional. My son's confidence has grown, and he's now performing much better in school."
+                    "As a working parent, I needed a reliable tutor who could help my son with his studies. The tutor from Scholarhaat has been exceptional. My son's confidence has grown, and he's now performing much better in school."
                   </p>
                   <div>
                     <p className="font-semibold">Farida Hossain</p>
@@ -340,7 +340,7 @@ const HomePage: React.FC = () => {
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex-grow">
                   <p className="text-gray-600 italic mb-4">
-                    "Tuition Terminal has transformed my tutoring career. The platform connects me with students who truly match my teaching style and subject expertise. I've been able to build a steady income while doing what I love."
+                    "Scholarhaat has transformed my tutoring career. The platform connects me with students who truly match my teaching style and subject expertise. I've been able to build a steady income while doing what I love."
                   </p>
                   <div>
                     <p className="font-semibold">Farhan Hossain</p>
@@ -361,7 +361,7 @@ const HomePage: React.FC = () => {
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex-grow">
                   <p className="text-gray-600 italic mb-4">
-                    "As a university student, I needed flexible tutoring opportunities. Tuition Terminal's platform allows me to set my own schedule and find students near my location. The payment system is reliable, and the support team is always helpful."
+                    "As a university student, I needed flexible tutoring opportunities. Scholarhaat's platform allows me to set my own schedule and find students near my location. The payment system is reliable, and the support team is always helpful."
                   </p>
                   <div>
                     <p className="font-semibold">Nusrat Jahan</p>
@@ -406,7 +406,7 @@ const HomePage: React.FC = () => {
               <div className="text-primary text-6xl absolute top-0 left-0">"</div>
               <div className="pl-8 pt-8">
                 <p className="text-gray-600 mb-4">
-                  Tuition Terminal has revolutionized how we connect with quality tutors. The platform's verification process ensures we only work with qualified professionals.
+                  Scholarhaat has revolutionized how we connect with quality tutors. The platform's verification process ensures we only work with qualified professionals.
                 </p>
                 <div className="flex items-center">
                   <img 
@@ -426,7 +426,7 @@ const HomePage: React.FC = () => {
               <div className="text-primary text-6xl absolute top-0 left-0">"</div>
               <div className="pl-8 pt-8">
                 <p className="text-gray-600 mb-4">
-                  As an educational institution, partnering with Tuition Terminal has helped us provide additional learning support to our students. Their tutors are knowledgeable and professional.
+                  As an educational institution, partnering with Scholarhaat has helped us provide additional learning support to our students. Their tutors are knowledgeable and professional.
                 </p>
                 <div className="flex items-center">
                   <img 
@@ -457,7 +457,7 @@ const HomePage: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <div className="text-center md:text-left">
               <p className="text-gray-600 mb-4 max-w-md">
-                Get the Tuition Terminal app on your mobile device for a seamless experience. Find tutors, manage appointments, and track progress on the go.
+                Get the Scholarhaat app on your mobile device for a seamless experience. Find tutors, manage appointments, and track progress on the go.
               </p>
               <div className="flex gap-4 justify-center md:justify-start">
                 <Link to="/" className="inline-block">

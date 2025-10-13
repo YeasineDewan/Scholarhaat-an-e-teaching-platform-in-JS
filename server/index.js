@@ -29,7 +29,7 @@ app.use('/api/affiliate', affiliateRoutes);
 
 // Root route
 app.get('/', (req, res) => {
-  res.send('Tuition Terminal API is running');
+  res.send('Scholarhaat API is running');
 });
 
 // Database connection and server start
