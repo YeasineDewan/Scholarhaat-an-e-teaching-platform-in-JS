@@ -42,7 +42,7 @@ const Header: React.FC = () => {
         </button>
         
         {/* Desktop Navigation */}
-        <NavbarContent className="hidden sm:flex gap-6" justify="center">
+        <NavbarContent className="hidden sm:flex gap-8" justify="center">
           <NavbarItem isActive={isActive("/")}>
             <Link to="/" className={`${isActive("/") ? "text-primary font-medium" : "text-gray-600 hover:text-primary transition-colors"}`}>
               {t('nav.home')}
@@ -65,7 +65,7 @@ const Header: React.FC = () => {
         </NavbarItem>
       </NavbarContent>
         
-        <NavbarContent className="hidden sm:flex items-center gap-4" justify="end">
+        <NavbarContent className="hidden sm:flex items-center gap-6" justify="end">
           {/* Language Selector */}
           <Dropdown>
             <DropdownTrigger>
@@ -95,17 +95,7 @@ const Header: React.FC = () => {
           
           {/* Notification Center */}
           <NotificationCenter />
-          
-          {/* AI Chat Assistant */}
-          <Button 
-            variant="flat" 
-            color="primary"
-            className="flex items-center gap-2 bg-gradient-to-r from-primary/10 to-primary/5 hover:from-primary/20 hover:to-primary/10 border border-primary/20"
-            startContent={<Icon icon="lucide:bot" className="h-5 w-5" />}
-          >
-            <span className="hidden md:block font-medium">{t('aiAssistant')}</span>
-          </Button>
-          
+
           {/* Login Button */}
           <Button 
             as={Link} 
