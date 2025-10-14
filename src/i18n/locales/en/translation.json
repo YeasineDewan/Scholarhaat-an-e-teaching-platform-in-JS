@@ -2,10 +2,12 @@
   "appName": "Scholarhaat",
   "login": "Login",
 "register": "Register",
-"home": "Home",
-"jobBoard": "Job Board",
-"categories": "Category",
-"tutorHub": "Tutor Hub",
+"nav": {
+  "home": "Home",
+  "jobBoard": "Job Board",
+  "categories": "Category",
+  "tutorHub": "Tutor Hub"
+},
 "findTutor": "Find a Tutor",
   "becomeATutor": "Become a Tutor",
   "contactUs": "Contact Us",

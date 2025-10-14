@@ -45,22 +45,22 @@ const Header: React.FC = () => {
         <NavbarContent className="hidden sm:flex gap-6" justify="center">
           <NavbarItem isActive={isActive("/")}>
             <Link to="/" className={`${isActive("/") ? "text-primary font-medium" : "text-gray-600 hover:text-primary transition-colors"}`}>
-              {t('home')}
+              {t('nav.home')}
             </Link>
         </NavbarItem>
           <NavbarItem isActive={isActive("/job-board")}>
             <Link to="/job-board" className={`${isActive("/job-board") ? "text-primary font-medium" : "text-gray-600 hover:text-primary transition-colors"}`}>
-              {t('jobBoard')}
+              {t('nav.jobBoard')}
             </Link>
           </NavbarItem>
           <NavbarItem isActive={isActive("/categories")}>
             <Link to="/categories" className={`${isActive("/categories") ? "text-primary font-medium" : "text-gray-600 hover:text-primary transition-colors"}`}>
-              {t('categories')}
+              {t('nav.categories')}
             </Link>
         </NavbarItem>
           <NavbarItem isActive={isActive("/tutor-hub")}>
             <Link to="/tutor-hub" className={`${isActive("/tutor-hub") ? "text-primary font-medium" : "text-gray-600 hover:text-primary transition-colors"}`}>
-              {t('tutorHub')}
+              {t('nav.tutorHub')}
             </Link>
         </NavbarItem>
       </NavbarContent>
@@ -128,28 +128,28 @@ const Header: React.FC = () => {
               className={`px-4 py-2 rounded-md ${isActive("/") ? "bg-primary/10 text-primary font-medium" : "text-gray-600"}`}
               onClick={() => setIsMenuOpen(false)}
             >
-              {t('home')}
+              {t('nav.home')}
             </Link>
             <Link
               to="/job-board"
               className={`px-4 py-2 rounded-md ${isActive("/job-board") ? "bg-primary/10 text-primary font-medium" : "text-gray-600"}`}
               onClick={() => setIsMenuOpen(false)}
             >
-              {t('jobBoard')}
+              {t('nav.jobBoard')}
             </Link>
             <Link
               to="/categories"
               className={`px-4 py-2 rounded-md ${isActive("/categories") ? "bg-primary/10 text-primary font-medium" : "text-gray-600"}`}
               onClick={() => setIsMenuOpen(false)}
             >
-              {t('categories')}
+              {t('nav.categories')}
             </Link>
             <Link
               to="/tutor-hub"
               className={`px-4 py-2 rounded-md ${isActive("/tutor-hub") ? "bg-primary/10 text-primary font-medium" : "text-gray-600"}`}
               onClick={() => setIsMenuOpen(false)}
             >
-              {t('tutorHub')}
+              {t('nav.tutorHub')}
             </Link>
             
             <div className="border-t border-gray-200 pt-3">

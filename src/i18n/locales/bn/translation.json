@@ -2,10 +2,12 @@
 	"appName": "স্কলারহাট",
 	"login": "লগইন",
 	"register": "রেজিস্টার",
-	"home": "হোম",
-	"jobBoard": "জব বোর্ড",
-	"categories": "ক্যাটাগরি",
-	"tutorHub": "টিউটর হাব",
+	"nav": {
+		"home": "হোম",
+		"jobBoard": "জব বোর্ড",
+		"categories": "ক্যাটাগরি",
+		"tutorHub": "টিউটর হাব"
+	},
 	"aiAssistant": "এআই সহায়ক",
 	"language": "ভাষা",
 	"home": {
