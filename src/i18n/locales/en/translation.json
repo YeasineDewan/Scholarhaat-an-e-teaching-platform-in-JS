@@ -1,12 +1,12 @@
 {
   "appName": "Scholarhaat",
   "login": "Login",
-  "register": "Register",
-  "home": "Home",
-  "jobBoard": "Job Board",
-  "categories": "Categories",
-  "tutorHub": "Tutor Hub",
-  "findTutor": "Find a Tutor",
+"register": "Register",
+"home": "Home",
+"jobBoard": "Job Board",
+"categories": "Category",
+"tutorHub": "Tutor Hub",
+"findTutor": "Find a Tutor",
   "becomeATutor": "Become a Tutor",
   "contactUs": "Contact Us",
   "aboutUs": "About Us",
@@ -31,6 +31,8 @@
   "no": "No",
   "English": "English",
   "Bangla": "Bangla",
+  "aiAssistant": "AI Assistant",
+  "language": "Language",
   "home": {
     "hero": {
       "title": "Country's #1 Tutor Matching & Learning Platform.",
@@ -90,7 +92,8 @@
       "connectWithStudentsDesc": "Communicate directly with potential students"
     },
     "vision": "We intend to expand excellent education.",
-    "stakeholders": "Stakeholders Testimonials About Us",
+    "stakeholders": "Stakeholders' Statements About Us",
+    "aboutUs": "About Us",
     "downloadApp": "Download App",
     "downloadAppDesc": "Get the Scholarhaat app on your mobile device for a seamless experience. Find tutors, manage appointments, and track progress on the go.",
     "featuredOn": "We were Featured on"
