@@ -11,6 +11,8 @@ import RegisterPage from './pages/register';
 import { useTranslation } from 'react-i18next';
 import TutorDetailsPage from './pages/tutor-details';
 import AffiliateProgramPage from './pages/affiliate-program';
+import OurTeamPage from './pages/our-team';
+import BecomeATutorPage from './pages/become-a-tutor';
 import ChatWidget from './components/common/ChatWidget';
 import NotificationCenter from './components/common/NotificationCenter';
 import AdminDashboard from './components/admin/AdminDashboard';
@@ -33,6 +35,8 @@ function App() {
           <Route path="/login" component={LoginPage} />
           <Route path="/register" component={RegisterPage} />
           <Route path="/affiliate-program" component={AffiliateProgramPage} />
+          <Route path="/our-team" component={OurTeamPage} />
+          <Route path="/become-a-tutor" component={BecomeATutorPage} />
           
           {/* Admin routes */}
           <Route exact path="/admin" component={AdminDashboard} />

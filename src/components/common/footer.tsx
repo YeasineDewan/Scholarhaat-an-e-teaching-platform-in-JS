@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from "@heroui/react";
 import { Icon } from '@iconify/react';
 import { useTranslation } from 'react-i18next';
+// import '@fontsource/inter'; // Import Inter font
 
 const Footer: React.FC = () => {
   const { t } = useTranslation();
@@ -36,9 +37,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold text-gray-800 mb-6">{t('footer.usefulLinks')}</h3>
             <ul className="space-y-3">
-              <li><Link to="/" className="text-gray-600 text-sm hover:text-primary transition-colors">Affiliate Program</Link></li>
-              <li><Link to="/" className="text-gray-600 text-sm hover:text-primary transition-colors">Our Team</Link></li>
-              <li><Link to="/" className="text-gray-600 text-sm hover:text-primary transition-colors">Become A Tutor</Link></li>
+              <li><Link to="/affiliate-program" className="text-gray-600 text-sm hover:text-primary transition-colors">Affiliate Program</Link></li>
+              <li><Link to="/our-team" className="text-gray-600 text-sm hover:text-primary transition-colors">Our Team</Link></li>
+              <li><Link to="/become-a-tutor" className="text-gray-600 text-sm hover:text-primary transition-colors">Become A Tutor</Link></li>
               <li><Link to="/" className="text-gray-600 text-sm hover:text-primary transition-colors">Careers</Link></li>
               <li><Link to="/" className="text-gray-600 text-sm hover:text-primary transition-colors">Appoint A Tutor</Link></li>
               <li><Link to="/" className="text-gray-600 text-sm hover:text-primary transition-colors">Gallery</Link></li>
@@ -55,15 +56,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Icon icon="lucide:mail" className="text-primary h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-600 text-sm">info@tuitionterminal.com.bd</span>
+                <span className="text-gray-600 text-sm">info@scholarhaat.com</span>
               </li>
               <li className="flex items-start">
                 <Icon icon="lucide:phone" className="text-primary h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-600 text-sm">Call Hotline : 09678-444477</span>
+                <span className="text-gray-600 text-sm">Call Hotline : +880 1880-001126</span>
               </li>
               <li className="flex items-start">
                 <Icon icon="lucide:map-pin" className="text-primary h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-600 text-sm">House 16/5,Faridabad N/A, Section: 4B Mirpur, Dhaka</span>
+                <span className="text-gray-600 text-sm">1188/2/B East Shewrapara, Kafrul, Mirpur, Dhaka-1216, Bangladesh</span>
               </li>
               <li>
                 <div className="flex gap-3 mt-6">
@@ -91,7 +92,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold text-gray-800 mb-6">{t('footer.weAccept')}</h3>
             <div className="mb-4">
-              <img src="https://img.heroui.chat/image/ai?w=120&h=36&u=bkash" alt="bKash" className="h-8" />
+              <img src="Imgaes\payment gateway\getways.jpg" alt="bKash" className="h-8" />
             </div>
           </div>
         </div>
