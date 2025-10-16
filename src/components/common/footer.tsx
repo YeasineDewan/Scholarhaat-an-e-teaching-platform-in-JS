@@ -25,10 +25,10 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex gap-2 mb-4">
               <Link to="/" className="inline-block">
-                <img src="https://img.heroui.chat/image/ai?w=120&h=36&u=googleplay" alt="Google Play" className="h-9" />
+                <img src="Imgaes\app download sign\apple download.png" alt="Google Play" className="h-9" />
               </Link>
               <Link to="/" className="inline-block">
-                <img src="https://img.heroui.chat/image/ai?w=120&h=36&u=appstore" alt="App Store" className="h-9" />
+                <img src="Imgaes\app download sign\google download.png" alt="App Store" className="h-9" />
               </Link>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold text-gray-800 mb-6">{t('footer.weAccept')}</h3>
             <div className="mb-4">
-              <img src="Imgaes\payment gateway\getways.jpg" alt="bKash" className="h-8" />
+              <img src="Imgaes\payment gateway\getways.jpg" alt="bKash" className="h-12 ml-4" />
             </div>
           </div>
         </div>
